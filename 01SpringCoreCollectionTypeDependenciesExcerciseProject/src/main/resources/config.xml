@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<bean id="ss" class="com.app.prasoon.Student">
+		<property name="name" value="Hitesh">
+
+		</property>
+		<!-- List Collection Injection-->
+		<property name="phones">
+			<list>
+			<value>9827352622</value>
+			<value>9827352624</value>
+			<value>9827352625</value>
+			<value>9827352626</value>
+			</list>
+		</property>
+		<property name="addresses">
+		 <set>
+		  <value>Bhopal</value>
+		  <value>Jaipur</value>
+		  <value>Indor</value>
+		  <value>Pali</value>
+		 </set>
+		</property>
+		
+		<property name="courses">
+		 <map>
+		  <entry key="Java" value="12 month"/>
+		  <entry key="Python" value="6-8 month"/>
+		  <entry key="Mern" value="8 month"/>
+		 </map>
+		</property>
+	</bean>
+
+</beans>
