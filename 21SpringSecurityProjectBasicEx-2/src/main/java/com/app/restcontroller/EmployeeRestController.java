@@ -23,17 +23,17 @@ public class EmployeeRestController {
                     new Employee(3, "C", "Indore")
             )
     );
-
+// Using this Read All Employee
     @GetMapping("/show-employee")
     public List<Employee> showEmployee() {
         return list;
     }
-
+// Using this Add Employee
     @PostMapping("/add-Employee")
     public void addEmployee(@RequestBody Employee employee) {
         list.add(employee);
     }
-
+// Get Info About Employees
     @GetMapping("/get-info")
     public String getCourseInfo(HttpServletRequest request) {
 
