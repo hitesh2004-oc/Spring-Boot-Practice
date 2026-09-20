@@ -6,10 +6,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class controller {
-	
 	@GetMapping("/hi")
 	public String Page() {
 		return "mypage";
 	}
-
 }
