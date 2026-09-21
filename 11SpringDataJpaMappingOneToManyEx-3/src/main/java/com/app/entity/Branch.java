@@ -14,7 +14,6 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "branch_table")
 public class Branch {
-
     @Id
     @Column(name = "branch_id")
     private Integer branchId;
