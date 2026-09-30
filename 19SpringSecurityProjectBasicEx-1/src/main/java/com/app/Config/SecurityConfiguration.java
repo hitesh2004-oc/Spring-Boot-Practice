@@ -30,7 +30,6 @@ public class SecurityConfiguration {
 
         return http.build();
     }
-
     @Bean
     public UserDetailsService userDetails() {
 
@@ -45,7 +44,6 @@ public class SecurityConfiguration {
                 .password("Vinod123")
                 .roles("User")
                 .build();
-
         return new InMemoryUserDetailsManager(admin, user);
     }
 }
