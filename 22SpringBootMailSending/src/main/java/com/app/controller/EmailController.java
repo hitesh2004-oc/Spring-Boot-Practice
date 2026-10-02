@@ -11,12 +11,9 @@ public class EmailController {
 
     @Autowired
     private EmailService emailService;
-
     @GetMapping("/send")
     public String sendEmail() {
-
         emailService.sendMail();
-
         return "Email Sent Successfully";
     }
 }
