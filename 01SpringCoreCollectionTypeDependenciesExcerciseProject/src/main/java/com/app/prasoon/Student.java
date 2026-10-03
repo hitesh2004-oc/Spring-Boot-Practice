@@ -5,13 +5,13 @@ import java.util.Map;
 import java.util.Set;
 
 public class Student {
-	private String name;
+	private String name; // Name
 	
-	private List<String>phones;
+	private List<String>phones; // Phones
 	
-	private Set<String>addresses;
+	private Set<String>addresses; // Address
 	
-	private Map<String,String>courses;
+	private Map<String,String>courses; // Course
 
 	public Student() {
 		super();
