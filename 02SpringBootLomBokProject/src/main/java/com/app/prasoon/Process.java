@@ -21,7 +21,6 @@ import lombok.ToString;
 @ToString
 @Component
 public class Process {
-       
 	  private String code ;
 	  private int port;
 }
