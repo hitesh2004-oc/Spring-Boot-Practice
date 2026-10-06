@@ -17,13 +17,12 @@ public class AuthController {
             @RequestBody AuthRequest request) {
 
         // Hardcoded validation
-        if ("Hitesh Malviya".equals(request.getUsername())
-                && "Hitesh123".equals(request.getPassword())) {
+        if("Hitesh Malviya".equals(request.getUsername())
+                &&"Hitesh123".equals(request.getPassword())) {
 
             return jwtUtil.generateToken(
                     request.getUsername());
         }
-
         return "Invalid Username or Password";
     }
 }
