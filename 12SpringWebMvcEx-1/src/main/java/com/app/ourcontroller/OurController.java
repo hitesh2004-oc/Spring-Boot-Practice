@@ -13,7 +13,6 @@ public class OurController {
 //		return "mypage";
 //	}
 
-	
 	@GetMapping("/hi")
   public ModelAndView displayMyResponse() {
   	ModelAndView mav = new ModelAndView();
