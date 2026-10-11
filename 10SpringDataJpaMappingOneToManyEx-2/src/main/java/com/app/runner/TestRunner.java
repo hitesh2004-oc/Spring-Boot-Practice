@@ -31,7 +31,6 @@ public class TestRunner implements CommandLineRunner {
         Order o5 = new Order(105, "ORD-C1", 9200.0);
 
         User u1 = new User(1,"Hitesh","Hitesh@gmail.com",Arrays.asList(o1, o2));
-
         User u2 = new User(2,"Vinod","Vinod@gmail.com",Arrays.asList(o3, o4, o5));
         
         orderRepo.save(o1);
