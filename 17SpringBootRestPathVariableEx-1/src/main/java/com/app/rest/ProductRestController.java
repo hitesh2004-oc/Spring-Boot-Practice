@@ -19,7 +19,6 @@ public class ProductRestController {
             @RequestParam("pid") Integer id,
             @RequestParam("pname") String name
     ) {
-
         System.out.println("PID :" + id + " PNAME :" + name);
 
         return new ResponseEntity<>("PID " + id + " PNAME " + name,HttpStatus.OK);
