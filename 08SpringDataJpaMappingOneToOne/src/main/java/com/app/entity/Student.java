@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 @Table(name = "student_table_mapping")
 public class Student {
-     
+    
 	@Id
 	@Column(name ="student id")
 	private Integer sId;
