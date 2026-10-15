@@ -16,7 +16,7 @@ import lombok.Data;
 @Table(name ="student_tab")
 @Entity
 public class Student {
-	
+
 	@Id
 	@Column(name = "sid")
 	@GeneratedValue( strategy = GenerationType.IDENTITY)
