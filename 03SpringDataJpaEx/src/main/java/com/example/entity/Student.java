@@ -10,7 +10,6 @@ import lombok.Data;
 @Entity
 @Table(name = "SpringStudent")
 public class Student {
-
     @Id
     @Column(name = "stdId")
     private Integer stdId;
