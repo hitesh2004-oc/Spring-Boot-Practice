@@ -9,5 +9,4 @@ import lombok.NoArgsConstructor;
 public class Role {
 	private Integer roleId;
 	private String roleCode;
-	
 }
