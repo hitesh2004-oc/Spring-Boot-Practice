@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 @Profile("default")
 @Component
 public class DefaultEnvironment implements CommandLineRunner {
-
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println("Default Environment Executed...");
