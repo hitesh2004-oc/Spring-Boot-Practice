@@ -30,7 +30,6 @@ public class MyCustomExceptionHandler {
 						500,
 						pnfe.getMessage()),
 				HttpStatus.INTERNAL_SERVER_ERROR);
-
 	}
 
 }
